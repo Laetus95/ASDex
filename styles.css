@@ -1,0 +1,235 @@
+/** {
+  padding: 0;
+  margin: 0;
+}*/
+
+.body {
+  background-color: whitesmoke;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blueviolet;
+}
+
+/*a:visited {
+  color: grey;
+}*/
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info p {
+  color: #0b111d;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: solid;
+  /*text-transform: capitalize; */
+  /*letter-spacing: 5px;*/
+  word-spacing: 10px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+/* BOX Model*/
+
+.container {
+  width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/*.social { 
+background: palegoldenrod;
+padding: 15px;
+padding-top: 15px;
+padding-right: 20px;
+padding-bottom: 25px;
+padding-left: 30px;
+border: 5px solid grey;
+margin: 5px;
+
+border: 5x solid rgb(29, 27, 27);
+border-bottom-style: solid;
+border-top-width: 15px;
+} */
+
+/*.box-model > div {
+float: left;
+background: #000;
+height: 200px;
+border: 4px solid red;
+width: 25%;
+box-sizing: border-box;
+} */
+
+.bg-yellow {
+  background: aquamarine;
+}
+
+.bg-green {
+  background: bisque;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20 px;
+  /*list-style: none;*/
+}
+
+.list li {
+  color: #010408;
+  margin-bottom: 10px;
+  /*border-bottom: 1px solid black;*/
+}
+
+.table {
+  width: 100%;
+}
+
+/*.table td {
+  margin-bottom: 10px;
+}*/
+
+/*.table .temp td {
+  color: #86898f;
+}*/
+
+/*.table td:nth-child(2),
+.table.td:nth-child(3) {
+  color: #184cb6;
+}*/
+
+/*.table tr:nth-child {
+  background: red;
+}*/
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  /*background: transparent;*/
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group :last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background-color: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn {
+  opacity: 0.9;
+}
+
+/* Position */
+
+.position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*bottom: 50px;*/
+  /*left: 0px;*/
+  width: 100%;
+  height: 50px;
+  background: rgb(96, 199, 168);
+}
